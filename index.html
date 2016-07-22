@@ -22,8 +22,17 @@ div.Game-List {
   p.Button-Text {
     position: relative;top:-5px;text-align: center; color: #EA8466;text-decoration:none;
   }
-  a.Menu{
+  a{
     text-decoration: none;
+  }
+  a.Game-List-Link:visited {
+    color: green;
+  }  
+  a.Game-List-Link:link {
+    color: #0000FF;
+  }
+  a.Game-List-Link:hover {
+    color: #0000FF;
   }
   div.Menu {
     text-align: center;
@@ -44,7 +53,7 @@ div.Game-List {
 <h1 style="color:#EA8466;border-style: none none solid none; border-color:#EA8466;">Games</h1>
 <strong><div class="Game-List">
 <h2>C++</h2>
-<a href="http://github.com/EmptyResearch/Blackjack/tree/source">Blackjack (Source Code)</a><a href="http://github.com/EmptyResearch/Blackjack/raw/exe/Blackjack.exe">Blackjack (Download an exe)</a>
+<a class="Game-List-Link" href="http://github.com/EmptyResearch/Blackjack/tree/source">Blackjack (Source Code)</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://github.com/EmptyResearch/Blackjack/raw/exe/Blackjack.exe">Blackjack (Download an exe)</a>
 <h2>Python</h2>
 <p> </p>
 </div></strong>
